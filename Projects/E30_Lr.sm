@@ -1,0 +1,1149 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="1.0.8253.4763"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="96">
+    <identity>
+      <id>b3ba1bd0-18c4-4f2f-a3e4-4994c2ad6135</id>
+      <revision>120</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <approximateEqualAccuracy>0</approximateEqualAccuracy>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="9" orientation="Portrait" width="827" height="1169" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="1.0.8253.4763" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.11.8253.4763" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="TextRegion" version="1.11.8253.4763" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="0" top="0" width="369" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Сердечник E30/15/7 N87 EPCOS (S=Amin, So=AN, lср=le)</p>
+        </content>
+      </text>
+    </region>
+    <region left="117" top="27" width="130" height="33" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">So</e>
+          <e type="operand">34</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">ca</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="279" top="27" width="30" height="33" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">м</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="36" width="107" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Площадь окна:</p>
+        </content>
+      </text>
+    </region>
+    <region left="216" top="63" width="122" height="33" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">S</e>
+          <e type="operand">49</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">ca</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="387" top="63" width="30" height="33" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">м</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="72" width="212" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Площадь поперечного сечения:</p>
+        </content>
+      </text>
+    </region>
+    <region left="216" top="99" width="126" height="39" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">l.ср</e>
+          <e type="operand">67</e>
+          <e type="operand">10</e>
+          <e type="operand">3</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="108" width="221" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Длина средней магнитной линии:</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="144" width="134" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Количество витков:</p>
+        </content>
+      </text>
+    </region>
+    <region left="144" top="144" width="52" height="30" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">w.1</e>
+          <e type="operand">5</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="288" top="162" width="141" height="42" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">μ.0</e>
+          <e type="operand">4</e>
+          <e type="operand">π</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">10</e>
+          <e type="operand">7</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="171" width="58" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Зазор: </p>
+        </content>
+      </text>
+    </region>
+    <region left="63" top="171" width="82" height="24" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">g</e>
+          <e type="operand">0.4</e>
+          <e type="operand" style="unit">mm</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="180" top="171" width="76" height="30" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">μ.i</e>
+          <e type="operand">1690</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="198" width="86" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">μref</e>
+          <e type="operand">367</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="99" top="198" width="106" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">gref</e>
+          <e type="operand">0.2</e>
+          <e type="operand" style="unit">mm</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="207" top="198" width="78" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ke</e>
+          <e type="operand">0.61</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="189" top="225" width="190" height="69" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">μ.с</e>
+          <e type="operand">μref</e>
+          <e type="operand">g</e>
+          <e type="operand">gref</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">ke</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">240.457</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="234" width="183" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Магнитная проницаемость:</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="279" width="110" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Индуктивность:</p>
+        </content>
+      </text>
+    </region>
+    <region left="342" top="288" width="68" height="30" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">μ.с</e>
+          <e type="operand">243</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="297" width="277" height="62" color="#000000" fontSize="10">
+      <math exponentialThreshold="3">
+        <input>
+          <e type="operand">L1</e>
+          <e type="operand">μ.0</e>
+          <e type="operand">μ.с</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">w.1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">S</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">l.ср</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">5.5831</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="351" top="315" width="147" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">L1</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">5.5831</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="549" top="360" width="126" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">5.5831</e>
+          <e type="operand">4.88</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.1441</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="369" width="153" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Сопротивление шунта</p>
+        </content>
+      </text>
+    </region>
+    <region left="198" top="369" width="106" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Rsh</e>
+          <e type="operand">100</e>
+          <e type="operand" style="unit">mΩ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="396" width="174" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Сопротивление проводов</p>
+        </content>
+      </text>
+    </region>
+    <region left="198" top="396" width="98" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Rwi</e>
+          <e type="operand">27</e>
+          <e type="operand" style="unit">mΩ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="423" width="192" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Сопротивление транзистора</p>
+        </content>
+      </text>
+    </region>
+    <region left="198" top="423" width="98" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Rds</e>
+          <e type="operand">18</e>
+          <e type="operand" style="unit">mΩ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="450" width="165" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Сопротивление катушки</p>
+        </content>
+      </text>
+    </region>
+    <region left="198" top="450" width="98" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">RL1</e>
+          <e type="operand">25</e>
+          <e type="operand" style="unit">mΩ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="477" width="159" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Общее сопротивление:</p>
+        </content>
+      </text>
+    </region>
+    <region left="171" top="477" width="284" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Rsum</e>
+          <e type="operand">Rsh</e>
+          <e type="operand">Rwi</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">Rds</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">RL1</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.17</e>
+          <e type="operand" style="unit">Ω</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="504" width="148" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Постоянная времени:</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="522" width="200" height="42" color="#000000" fontSize="10">
+      <math exponentialThreshold="3">
+        <input>
+          <e type="operand">τ</e>
+          <e type="operand">L1</e>
+          <e type="operand">Rsum</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">3.2842</e>
+          <e type="operand">10</e>
+          <e type="operand">5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">s</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="567" width="176" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Пиковый ток транзистора:</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="594" width="73" height="30" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">U.1</e>
+          <e type="operand">12</e>
+          <e type="operand" style="unit">V</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="99" top="594" width="103" height="30" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">t.on</e>
+          <e type="operand">4.1</e>
+          <e type="operand" style="unit">μs</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="630" width="286" height="51" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">I.1pk</e>
+          <e type="operand">U.1</e>
+          <e type="operand">Rsum</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1</e>
+          <e type="operand">t.on</e>
+          <e type="operand">τ</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="1">-</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">8.284</e>
+          <e type="operand" style="unit">A</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="549" top="630" width="118" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">8.367</e>
+          <e type="operand">8.28</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.0105</e>
+        </result>
+      </math>
+    </region>
+    <region left="198" top="675" width="223" height="53" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">B</e>
+          <e type="operand">μ.0</e>
+          <e type="operand">μ.с</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">w.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">I.1pk</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">l.ср</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.189</e>
+          <e type="operand" style="unit">T</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="684" width="190" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Индукция в магнитопроводе</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="729" width="134" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Количество витков:</p>
+        </content>
+      </text>
+    </region>
+    <region left="144" top="729" width="52" height="30" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">w.1</e>
+          <e type="operand">5</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="747" width="58" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Зазор: </p>
+        </content>
+      </text>
+    </region>
+    <region left="63" top="747" width="82" height="24" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">g</e>
+          <e type="operand">0.5</e>
+          <e type="operand" style="unit">mm</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="774" width="190" height="69" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">μ.с</e>
+          <e type="operand">μref</e>
+          <e type="operand">g</e>
+          <e type="operand">gref</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">ke</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">209.857</e>
+        </result>
+      </math>
+    </region>
+    <region left="234" top="801" width="84" height="30" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">μ.с</e>
+          <e type="operand">207.5</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="846" width="277" height="62" color="#000000" fontSize="10">
+      <math exponentialThreshold="3">
+        <input>
+          <e type="operand">L1</e>
+          <e type="operand">μ.0</e>
+          <e type="operand">μ.с</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">w.1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">S</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">l.ср</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">4.7675</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="333" top="864" width="147" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">L1</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">4.7675</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="540" top="864" width="126" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">4.7675</e>
+          <e type="operand">4.88</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.9769</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="909" width="200" height="42" color="#000000" fontSize="10">
+      <math exponentialThreshold="3">
+        <input>
+          <e type="operand">τ</e>
+          <e type="operand">L1</e>
+          <e type="operand">Rsum</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.8044</e>
+          <e type="operand">10</e>
+          <e type="operand">5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">s</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="540" top="936" width="118" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">9.601</e>
+          <e type="operand">9.6</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.0001</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="954" width="286" height="51" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">I.1pk</e>
+          <e type="operand">U.1</e>
+          <e type="operand">Rsum</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1</e>
+          <e type="operand">t.on</e>
+          <e type="operand">τ</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="1">-</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">9.601</e>
+          <e type="operand" style="unit">A</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="198" top="999" width="223" height="53" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">B</e>
+          <e type="operand">μ.0</e>
+          <e type="operand">μ.с</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">w.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">I.1pk</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">l.ср</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.187</e>
+          <e type="operand" style="unit">T</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1008" width="190" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Индукция в магнитопроводе</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="1071" width="134" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Количество витков:</p>
+        </content>
+      </text>
+    </region>
+    <region left="144" top="1071" width="52" height="30" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">w.1</e>
+          <e type="operand">5</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="1089" width="58" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Зазор: </p>
+        </content>
+      </text>
+    </region>
+    <region left="63" top="1089" width="82" height="24" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">g</e>
+          <e type="operand">0.6</e>
+          <e type="operand" style="unit">mm</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="1116" width="190" height="69" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">μ.с</e>
+          <e type="operand">μref</e>
+          <e type="operand">g</e>
+          <e type="operand">gref</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">ke</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">187.768</e>
+        </result>
+      </math>
+    </region>
+    <region left="234" top="1143" width="84" height="30" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">μ.с</e>
+          <e type="operand">182.5</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="1188" width="277" height="62" color="#000000" fontSize="10">
+      <math exponentialThreshold="3">
+        <input>
+          <e type="operand">L1</e>
+          <e type="operand">μ.0</e>
+          <e type="operand">μ.с</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">w.1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">S</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">l.ср</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">4.1931</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="333" top="1206" width="147" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">L1</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">4.1931</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="540" top="1206" width="126" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">4.1931</e>
+          <e type="operand">4.88</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.8592</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1251" width="200" height="42" color="#000000" fontSize="10">
+      <math exponentialThreshold="3">
+        <input>
+          <e type="operand">τ</e>
+          <e type="operand">L1</e>
+          <e type="operand">Rsum</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.4665</e>
+          <e type="operand">10</e>
+          <e type="operand">5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">s</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="540" top="1278" width="126" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">10.531</e>
+          <e type="operand">10.80</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.9751</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1296" width="286" height="51" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">I.1pk</e>
+          <e type="operand">U.1</e>
+          <e type="operand">Rsum</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1</e>
+          <e type="operand">t.on</e>
+          <e type="operand">τ</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="1">-</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">10.81</e>
+          <e type="operand" style="unit">A</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="198" top="1341" width="223" height="53" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">B</e>
+          <e type="operand">μ.0</e>
+          <e type="operand">μ.с</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">w.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">I.1pk</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">l.ср</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.185</e>
+          <e type="operand" style="unit">T</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="540" top="1341" width="126" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">24.145</e>
+          <e type="operand">24.037</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.0045</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1350" width="190" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Индукция в магнитопроводе</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="1539" width="134" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Количество витков:</p>
+        </content>
+      </text>
+    </region>
+    <region left="144" top="1539" width="52" height="30" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">w.1</e>
+          <e type="operand">5</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="1557" width="58" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Зазор: </p>
+        </content>
+      </text>
+    </region>
+    <region left="63" top="1557" width="82" height="24" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">g</e>
+          <e type="operand">3.0</e>
+          <e type="operand" style="unit">mm</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="1584" width="182" height="69" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">μ.с</e>
+          <e type="operand">μref</e>
+          <e type="operand">g</e>
+          <e type="operand">gref</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">ke</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">70.348</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1656" width="277" height="62" color="#000000" fontSize="10">
+      <math exponentialThreshold="3">
+        <input>
+          <e type="operand">L1</e>
+          <e type="operand">μ.0</e>
+          <e type="operand">μ.с</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">w.1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">S</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">l.ср</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.6163</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="333" top="1674" width="147" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">L1</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.6163</e>
+          <e type="operand" style="unit">H</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1719" width="200" height="42" color="#000000" fontSize="10">
+      <math exponentialThreshold="3">
+        <input>
+          <e type="operand">τ</e>
+          <e type="operand">L1</e>
+          <e type="operand">Rsum</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">9.5076</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">s</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1764" width="294" height="51" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">I.1pk</e>
+          <e type="operand">U.1</e>
+          <e type="operand">Rsum</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1</e>
+          <e type="operand">t.on</e>
+          <e type="operand">τ</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="1">-</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">24.726</e>
+          <e type="operand" style="unit">A</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="198" top="1809" width="223" height="53" color="#000000" fontSize="10">
+      <math decimalPlaces="3">
+        <input>
+          <e type="operand">B</e>
+          <e type="operand">μ.0</e>
+          <e type="operand">μ.с</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">w.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">I.1pk</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">l.ср</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.163</e>
+          <e type="operand" style="unit">T</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="540" top="1809" width="126" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">24.726</e>
+          <e type="operand">24</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.0303</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1818" width="190" height="23" color="#000000" fontSize="10" isBreakable="false">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-family: Arial; font-size: 10px;">Индукция в магнитопроводе</p>
+        </content>
+      </text>
+    </region>
+  </regions>
+</worksheet>
